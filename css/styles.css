@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+html {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 10px;
+    background-color: rgb(24,24,24);
+}
+
+body {
+    color: #FFF;
+    font-size: 1.4rem;
+    --background-solid: #212121;
+    --background-primary: rgba(33, 33, 33, 0.98);
+    --background-secondary: rgba(33, 33, 33, 0.95);
+    --general-background-a: #181818;
+    --general-background-b: #0f0f0f;
+    --general-background-c: #030303;
+    --text-primary: #fff;
+    --text-primary-inverse: #030303;
+    --text-secondary: #aaa;
+    --text-disabled: #717171;
+    --call-to-action: #3ea6ff;
+    --button-background: #c00;
+}
+
+.yt-icon {
+    fill: #fff;
+    width: 24px;
+    height: 24px;
+}
+
+.yt-icon-red {
+    fill: #F00;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 16px;
+    align-items: center;
+    height: 56px;
+    background-color: var(--background-primary);
+}
+
+.navbar-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.menu-icon {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    padding-right: 24px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    width: 129px;
+    padding: 18px 14px 18px 16px;
+}
+
+#logo-icon {
+    cursor: pointer;
+    height: 20px;
+    width: 90px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
