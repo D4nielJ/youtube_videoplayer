@@ -45,7 +45,6 @@ button {
     background-color:rgb(59, 59, 59);
     box-sizing: border-box;
     margin: 0em;
-    font: 400 13.3333px Arial;
     padding: 1px 6px;
 }
 
@@ -88,8 +87,7 @@ input:focus-visible {
 .navbar-item {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    height: 100%;
+    align-items: center;    
 }
 
 .menu-icon {
@@ -124,6 +122,7 @@ input:focus-visible {
     flex-basis: 1e-9px;
     display: flex;
     flex-direction: row;
+    padding: 0px 4px;
 }
 
 .searchbox-container {
@@ -176,10 +175,36 @@ input:focus-visible {
     padding: 8px;
 }
 
-#voice-search-button-icon {
-
+.navbar-end {
+    flex: none;
+    min-width: 225px;
+    justify-content: flex-end;
 }
 
+#sign-in {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: var(--call-to-action);
+    padding: 5px 11px;
+    border: 1px solid var(--call-to-action);
+    border-radius: 2px;
+    min-width: 72px;
+    font-size: 1.4rem;
+    
+}
+
+.sign-in-text {
+    font-weight: 500;
+    margin-left: 8px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
 
 
 
