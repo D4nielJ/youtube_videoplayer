@@ -1,4 +1,4 @@
-*, button {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -46,6 +46,7 @@ button {
     box-sizing: border-box;
     margin: 0em;
     padding: 1px 6px;
+    font-family: inherit;
 }
 
 svg:not(:root) {
@@ -192,8 +193,7 @@ input:focus-visible {
     border: 1px solid var(--call-to-action);
     border-radius: 2px;
     min-width: 72px;
-    font-size: 1.4rem;
-    
+    font-size: 1.4rem;    
 }
 
 .sign-in-text {
@@ -206,6 +206,22 @@ input:focus-visible {
     text-transform: uppercase;
 }
 
+.sign-in-icon {
+    fill: var(--call-to-action);
+}
+
+.settings-button {
+    width: 24px;
+    height: 24px;
+}
+
+.navbar-settings {
+    background-color: transparent;
+    padding: 8px;
+    cursor: pointer;
+    position: relative;
+    right: 4px;
+}
 
 
 
