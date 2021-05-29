@@ -210,12 +210,12 @@ input:focus-visible {
     fill: var(--call-to-action);
 }
 
-.settings-button {
+.navbar-icons {
     width: 24px;
     height: 24px;
 }
 
-.navbar-settings {
+.navbar-buttons {
     background-color: transparent;
     padding: 8px;
     cursor: pointer;
