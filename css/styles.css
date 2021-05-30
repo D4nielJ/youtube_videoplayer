@@ -236,18 +236,19 @@ input:focus-visible {
     margin-left: 24px;
     padding-right: 24px;
     padding-top: 24px;
-    flex: 2 0 66%;
+    flex: 2 0 75%;
 
 }
 
 #secondary {
     padding-top: 24px;
     padding-right: 24px;
-    flex: 1 0 33%;
+    flex: 1 0 25%;
 }
 
 .info-section {
     padding: 20px 0 8px;
+    border-bottom: 1px solid rgb(255 255 255 / 10%);
 }
 
 .hashtag-info-section {
@@ -282,7 +283,6 @@ input:focus-visible {
     align-items: center;
     font-size: 1.4rem;
     color: #aaa;
-    border-bottom: 1px solid rgb(255 255 255 / 10%);
 }
 
 .info-footer {
@@ -323,6 +323,8 @@ input:focus-visible {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
+    top: 5px;
 }
 
 .footer-icon {
